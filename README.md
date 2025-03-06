@@ -40,10 +40,12 @@ Before you begin, ensure you have the following installed:
     ```bash
     flask --app server --debug run
     ```
+    
 You should now be able to use the CURL command on localhost:5000/. Note that the terminal is already running the server, you can use the Split Terminal button to split the terminal and run the following command in the second tab.
     ```bash
     curl -X GET -i -w '\n' localhost:5000
     ```
+    
 You should see Hello World returned as the output of the CURL command.
 
 ## Understanding the Request Object
