@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
     ```
 4. Install Flask:
     ```bash
-    pip install "Flask==2.2.2"
+    apt install python3-flask
     ```
 
 ## Running the Flask Server
