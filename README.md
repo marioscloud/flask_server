@@ -36,14 +36,15 @@ Before you begin, ensure you have the following installed:
 
 ## Running the Flask Server
 
-1. Set the environment variable for Flask development mode:
+1. Run the Flask server:
     ```bash
-    export FLASK_ENV=development
+    flask --app server --debug run
     ```
-2. Run the Flask server:
+You should now be able to use the CURL command on localhost:5000/. Note that the terminal is already running the server, you can use the Split Terminal button to split the terminal and run the following command in the second tab.
     ```bash
-    flask run
+    curl -X GET -i -w '\n' localhost:5000
     ```
+You should see Hello World returned as the output of the CURL command.
 
 ## Understanding the Request Object
 
