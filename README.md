@@ -22,11 +22,14 @@ Before you begin, ensure you have the following installed:
     ```bash
     git clone https://github.com/your-username/flask-development-lab.git
     ```
-2. Check Python version and install Flask
+2. Change into the lab directory:
+   cd flask_server
+   
+3. Check Python version and install Flask
     ```bash
     python3 --version
     ```
-3. Install Flask:
+4. Install Flask:
     ```bash
     pip install "Flask==2.2.2"
     ```
